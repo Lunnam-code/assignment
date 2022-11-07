@@ -5,12 +5,11 @@
 # Course: ECE 541
 # Lecturer: Engr Dozie
 
-# Area of a circle calculator
-# Area of a circle 1/2(bh)
+#Question Area of a circle calculator
+#Area of a circle 22/7 * (r)**2
 
 print('Area Of A Circle Calculator')
 
-base = float(input('Enter base of your circle: '))
-height = float(input('Enter height of your circle: '))
-result = (1/2) * (base * height)
+radius = float(input('Enter radius of your circle: '))
+result = (22/7) * (radius)**2
 print('Area of a circle is ' +  str(result))
